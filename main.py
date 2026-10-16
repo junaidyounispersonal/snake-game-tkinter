@@ -35,8 +35,8 @@ class Food:
         self.coordinates=[x,y]
 
         canvas.create_oval(x, y, x + SPACE_SIZE, y + SPACE_SIZE, fill=FOOD_COLOR, tags="food")
-#this is a testing commit comment for testing the gpg keys from peronsal account
-#this is a testing commit comment for testing the gpg keys from peronsal account this would be the test for skill
+
+#this is a testing commit comment for testing the gpg keys from business account this would be the test for skill
 def next_turn(snake, food):
 
     x, y = snake.coordinates[0]
