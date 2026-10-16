@@ -11,8 +11,8 @@ FOOD_COLOR="#FF0000"
 BACKGROUND_COLOR="BLACK"
 
 class Snake:
-#this is a testing commit comment
-
+#this is a testing commit comment for testing the github actions
+#this is a testing commit comment for testing the github actions
     def __init__(self):
         self.body_size= BODY_PARTS
         self.coordinates=[]
